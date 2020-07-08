@@ -3,7 +3,7 @@ import _winreg
 
 a=_winreg.CreateKey(_winreg.HKEY_CURRENT_USER,'Software\Classes\CLSID
 
-\{926749FA-2615-4987-8845-C33E65F2B957}\TreatAs')
+\{926749FA-2615-4987-8845-C33E65F2B957}\TreatAs')                                           ##UIRibbonFramework object(our target Object)
 
 
 b=_winreg.CreateKey(_winreg.HKEY_CURRENT_USER,'Software\Classes\CLSID
